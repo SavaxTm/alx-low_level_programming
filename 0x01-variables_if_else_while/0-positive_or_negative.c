@@ -5,10 +5,10 @@
 
 /* betty style doc for function main goes there */
 int main(void)/**
-	 * main - Entry point
-	 *
-	 * Return: Always 0 (Success)
-	 */
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
 {
 	int n;
 
