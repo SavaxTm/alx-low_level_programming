@@ -1,7 +1,10 @@
 #include <stdio.h>
-int main(void) /**
-		 *we are using void
-		 */
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void) 
 {
 	char Mystr[] = "\"Programming is like building a multilingual puzzle";
 
