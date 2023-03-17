@@ -4,9 +4,14 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(void)/* Main function */
+int main()/*
+	     * main - Entry
+	     *
+	     * return: Always 0
+	     */
 {
 	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n > 0)
