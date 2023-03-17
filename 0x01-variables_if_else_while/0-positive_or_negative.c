@@ -4,8 +4,7 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(void)
-	/**
+int main(void)/**
 	 * main - Entry point
 	 *
 	 * Return: Always 0 (Success)
@@ -18,7 +17,7 @@ int main(void)
 	if (n > 0)
 	{
 		printf("%d", n);
-		printf("%s\n", " is positive"); 
+		printf("%s\n", " is positive");
 	}
 	if (n < 0)
 	{
