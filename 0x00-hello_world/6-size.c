@@ -1,6 +1,5 @@
 #include <stdio.h>
-#include <conio.h>
-main()
+int main(void)
 {
 	clrscr();
 	printf("Size of a char: %2d byte(s) \n", sizeof(char));
