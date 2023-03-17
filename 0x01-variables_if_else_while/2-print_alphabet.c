@@ -4,11 +4,12 @@
  *
  * Return: Always 0 (Success)
  */
-int main(void)
+int main()
 {
-	for (int x = 'a'; x <= 'z'; x++)
+	int x;
+	for(x = 'a'; x <= 'z'; x++)
 	{
-		putchar(x);
+        putchar(x);
 	}
-	return(0);
+    return 0;
 }
