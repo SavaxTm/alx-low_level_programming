@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 * main - Main Entry
 *
@@ -8,5 +9,5 @@ int main(void)
 {
 	printf("_putchar\n");
 
-return 0;
+return (0);
 }
