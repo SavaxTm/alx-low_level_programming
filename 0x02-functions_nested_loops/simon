@@ -1,0 +1,1 @@
+gcc -E 1-alphabet.c -o _putchar.c
