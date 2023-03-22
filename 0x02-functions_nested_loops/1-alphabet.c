@@ -1,15 +1,17 @@
-#include <stdio.h>
-#include "main.h"
+/* #include <stdio.h> */
+#include "_putchar.c"
+#include "1-main.c"
 /**
-* main - Entry point
+* print_alphabet - Entry point
 *
 * Return - Always 0 (Success)
 */
-int main(void)
+extern void print_alphabet(void)
 {
-	char x;
+	int x;
 		for (x = 'a'; x <= 'z'; ++x);
 
 		putchar(x);
-	return (0);
+
+	return;
 }

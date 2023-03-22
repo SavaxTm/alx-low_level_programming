@@ -1,6 +1,4 @@
-#include <stdio.h>
-#include "main.h"
-
+#include "_putchar.c"
 /**
  * main - check the code
  *
@@ -8,6 +6,7 @@
  */
 int main(void)
 {
-    print_alphabet();
+    void print_alphabet(void);
+
     return (0);
 }
