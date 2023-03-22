@@ -1,12 +1,13 @@
-#include "_putchar.c"
-/**
- * main - check the code
- *
- * Return: Always 0.
- */
-int main(void)
-{
-    void print_alphabet(void);
 
-    return (0);
+
+void print_alphabet(void);
+{
+	int x;
+	return;
+}
+
+char x;
+{
+	for(x = 'a'; x <= 'z'; ++x)
+	printf("%s", x)
 }

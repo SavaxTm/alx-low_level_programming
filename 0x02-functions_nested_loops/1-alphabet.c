@@ -1,17 +1,17 @@
-/* #include <stdio.h> */
-#include "_putchar.c"
-#include "1-main.c"
+#include <stdio.h>
+#include "_putchar.h"
 /**
-* print_alphabet - Entry point
+* main - Entry point
 *
 * Return - Always 0 (Success)
 */
-extern void print_alphabet(void)
+int main(void)
 {
-	int x;
+	void print_alphabet(void);
+	
 		for (x = 'a'; x <= 'z'; ++x);
 
-		putchar(x);
+		printf("%c", x);
 
-	return;
+	return (0);
 }
