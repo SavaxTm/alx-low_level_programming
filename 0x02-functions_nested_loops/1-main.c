@@ -1,13 +1,12 @@
+#include "main.h"
 
-
-void print_alphabet(void);
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
 {
-	int x;
-	return;
-}
-
-char x;
-{
-	for(x = 'a'; x <= 'z'; ++x)
-	printf("%s", x)
+    print_alphabet();
+    return (0);
 }
