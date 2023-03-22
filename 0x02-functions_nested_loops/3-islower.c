@@ -2,6 +2,8 @@
 /**
  * _islower - checks for lowercase letters
  *
+ * c - defines the ascii value the alphabets
+ *
  * Return: 1 (Success)
  * Onerror: return 0
  */
