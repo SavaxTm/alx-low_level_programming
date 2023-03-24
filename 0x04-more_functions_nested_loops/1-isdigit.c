@@ -3,15 +3,16 @@
 /**
  * _isdigit - Entry Point
  *
- * @c Parameter to determine integers
+ * @Param c - Parameter to determine integers
  *
  * Return: 1 (Success)
  * Onerror return 0
  */
 int _isdigit(int c)
 {
-	if (c = 48, c <= 57)
+	for (c = 48; c <= 57; c++)
+	{
 		return (1);
-	else
-		return (0);
+	}
+	return (0);
 }
