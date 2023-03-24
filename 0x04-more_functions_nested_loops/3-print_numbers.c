@@ -1,4 +1,10 @@
 #include "main.h"
+/**
+ * print_numbers - prints from 0 to 9
+ * @i parameter fof displaying integers
+ *
+ * Retutn: void
+ * */
 void print_numbers(void)
 {
 	int i;
