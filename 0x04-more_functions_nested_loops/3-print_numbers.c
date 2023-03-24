@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_numbers - prints from 0 to 9
- * @i parameter fof displaying integers
+ * @i parameter for displaying integers
  *
  * Retutn: void
  * */
