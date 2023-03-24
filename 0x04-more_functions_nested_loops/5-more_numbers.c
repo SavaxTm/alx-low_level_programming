@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * more_numbers - prints the numbers 0-9;
+ * more_numbers - prints the numbers 0-9
  *
- * @i - Parameter that prints the numbers 10 times
- * @j - Parameter that prints numbers 0-9
+ * @param i - Parameter that prints the numbers 10 times
+ * @param j - Parameter that prints numbers 0-9
  *
  * Return - void
  */
