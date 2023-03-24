@@ -6,11 +6,9 @@
  * Return: 1 (Success)
  * Onerror return 0
  */
-int main(void)
+int _isupper(int c)
 {
-	char _isupper;
-
-	if (_isupper = 65, _isupper <= 90)
+	if (c = 65, c <= 90)
 		return (1);
 	else
 		return (0);
