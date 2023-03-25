@@ -3,12 +3,9 @@
 #include <stdio.h>
 #include "main.h"
 /* more headers goes there */
-
-/* betty style doc for function main goes there */
 /**
  * positive_or_negative - Entry point
- *
- * @i - parameter that assigns a random number
+ * @i - Parameter that assigns random number
  *
  * Return: void
  */
