@@ -10,9 +10,8 @@
  */
 int _isdigit(int c)
 {
-	for (c = 48; c <= 57; c++)
-	{
+	if (c >= 48 && c <= 57)
 		return (1);
-	}
-	return (0);
+	else
+		return (0);
 }
