@@ -6,10 +6,9 @@
  * @a : defines integer to be multiplied
  * @b : defines the second integer
  *
- * Return: Always 0 (Success)
+ * Return: a * b (Success)
  */
 int mul(int a, int b)
 {
-	printf("%d", a * b);
-	return (0);
+	return (a * b);
 }
