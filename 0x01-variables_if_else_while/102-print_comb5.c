@@ -26,7 +26,7 @@ int main(void)
 					putchar(' ');
 					putchar(i);
 					putchar(j);
-					if (x + y + i + j != 228)
+					if (x + y != 114 || i+j != 114)
 					{
 						putchar(',');
 						putchar(' ');
