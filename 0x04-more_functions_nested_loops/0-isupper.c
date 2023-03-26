@@ -1,9 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
- *
  * _isupper - detects uppercase character
+ *
  * @c : Parameter for getting uppercase alphabets
  *
  * Return: 1 (Success)
