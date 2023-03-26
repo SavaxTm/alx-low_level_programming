@@ -1,10 +1,18 @@
 #include "main.h"
 void print_line(int n)
 {
-	float a = '_';
-	
-	for (n = 0; n <= -1; n--)
+	int x;
+
+	if (n <= 0)
+	{
 		_putchar('\n');
-	for (n = 1; n >= 2; n++)
-		_putchar(a);
+	}
+	else
+	{
+		for (x = 0; x < n; x++)
+		{
+			_putchar(95);
+		}
+		_putchar('\n');
+	}
 }
