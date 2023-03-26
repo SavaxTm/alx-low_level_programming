@@ -3,8 +3,8 @@
 /**
  * mul - multiplies two integers
  *
- * @a - defines integer to be multiplied
- * @b - defines the second integer
+ * @a : defines integer to be multiplied
+ * @b : defines the second integer
  *
  * Return: Always 0 (Success)
  */
