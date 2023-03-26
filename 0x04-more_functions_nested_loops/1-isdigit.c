@@ -3,7 +3,7 @@
 /**
  * _isdigit - Entry Point
  *
- * @Param c - Parameter to determine integers
+ * @c : Parameter to determine integers
  *
  * Return: 1 (Success)
  * Onerror return 0
