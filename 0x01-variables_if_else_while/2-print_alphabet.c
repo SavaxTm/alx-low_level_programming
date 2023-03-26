@@ -1,17 +1,19 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
+ * Description - Prints the alphabets
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char x;
+	int x = 97;
 
-	for (x = 'a'; x <= 'z'; x++)
+	while (x <= 122)
 	{
 		putchar (x);
-		putchar ('\n');
+		x++;
 	}
+	putchar ('\n');
+
 	return (0);
 }
