@@ -3,6 +3,9 @@
 /**
  * main - Entry point
  *
+ * _isupper - detects uppercase character
+ * @c : Parameter for getting uppercase alphabets
+ *
  * Return: 1 (Success)
  * Onerror return 0
  */
