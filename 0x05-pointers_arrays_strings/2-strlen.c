@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * _strlen - function that prints length of string
+ * @s : parameter used for arrays
  *
  * Return: i
  */
