@@ -1,5 +1,13 @@
 #include <stdio.h>
 #include "main.h"
+/**
+ * _strcat - concatenates two strings
+ * @dest : parameter 1;
+ * @src : parameter 2;
+ * @n : parameter 3;
+ *
+ * Return: dest
+ */
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
@@ -11,12 +19,12 @@ char *_strncat(char *dest, char *src, int n)
 		i++;
 	}
 	j = 0;
-	n = 0;
-	while (src[j] != '\0')
+	while (j < n && src[j] != '\0')
 	{
-		n++;
+		dest[i] = src[j];
 		i++;
 		j++;
 	}
+	dest[i] = '\0';
 	return (dest);
 }
