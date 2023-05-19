@@ -2,7 +2,6 @@
 /**
  * print_last_digit - prints last digit of a number
  * @int : parameter of number to be checked
- * @k : parameter of the last digit obtained
  * Return: last digit k
  */
 int print_last_digit(int);
@@ -15,6 +14,10 @@ int print_last_digit(int c)
 		c = c * -1;
 	}
 	k = c % 10;
+	if (k < 0)
+	{
+		k = k * -1;
+	}
 	_putchar (k + '0');
 	return (k);
 }
