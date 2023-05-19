@@ -1,5 +1,11 @@
 #include "main.h"
 #include <stdio.h>
+/**
+ * jack_bauer - prints all the hours and minutes of a day
+ * @a : parameter for hour
+ * @b : pqrameter for minutes
+ * Return: void
+ */
 void jack_bauer(void)
 {
 	int a, b;
