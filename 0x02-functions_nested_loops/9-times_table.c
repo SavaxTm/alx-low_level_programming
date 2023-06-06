@@ -14,7 +14,7 @@ void times_table(void)
 			}
 			else
 			{
-				printf("%d, ", b * a);
+				printf("%2d, ", b * a);
 			}
 		}
 		printf("\n");
