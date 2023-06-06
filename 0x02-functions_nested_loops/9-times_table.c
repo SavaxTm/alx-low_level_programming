@@ -10,11 +10,11 @@ void times_table(void)
 		{
 			if (b == 9)
 			{
-				printf("%2d", b * a);
+				printf("%d", b * a);
 			}
 			else
 			{
-				printf("%2d, ", b * a);
+				printf("%d, ", b * a);
 			}
 		}
 		printf("\n");
