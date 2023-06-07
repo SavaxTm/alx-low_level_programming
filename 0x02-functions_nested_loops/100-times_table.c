@@ -18,9 +18,9 @@ void print_times_table(int n)
 			}
 			else
 			{
-				printf("%4d, ", a * b);
+				printf("%3d, ", a * b);
 			}
 		}
 		printf("\n");
 	}
-}	
+}
