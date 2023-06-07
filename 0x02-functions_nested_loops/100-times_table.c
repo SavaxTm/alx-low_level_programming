@@ -14,15 +14,15 @@ void print_times_table(int n)
 		{
 			if (b >= n)
 			{
-				printf("%4d", a * b);
+				printf("%3d", a * b);
 			}
 			else if (b == 0)
 			{
-				printf("%d", a * b);
+				printf("%d,", a * b);
 			}
 			else
 			{
-				printf("%4d, ", a * b);
+				printf("%3d, ", a * b);
 			}
 		}
 		printf("\n");
