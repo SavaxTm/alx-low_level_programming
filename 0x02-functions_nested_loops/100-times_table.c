@@ -12,13 +12,13 @@ void print_times_table(int n)
 	{
 		for (b = 0; b <= n; b++)
 		{
-			if (b > n)
+			if (b >= n)
 			{
-				printf("%d", a * b);
+				printf("%4d", a * b);
 			}
 			else if (b == 0)
 			{
-				printf("%3d", a * b);
+				printf("%d", a * b);
 			}
 			else
 			{
