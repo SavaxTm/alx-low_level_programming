@@ -14,7 +14,7 @@ void print_times_table(int n)
 		{
 			if (b == n)
 			{
-				printf("%d", a * b);
+				printf("%3d", a * b);
 			}
 			else
 			{
