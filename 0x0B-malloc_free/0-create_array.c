@@ -3,6 +3,8 @@
 #include "main.h"
 /**
  * create_array - Entry point of program
+ * @size: Parameter that determines size of char
+ * @c: parameter for output
  * Return: returns ar
  */
 char *create_array(unsigned int size, char c)
