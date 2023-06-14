@@ -3,8 +3,6 @@
 /**
  * _strdup - Entry point
  * @str: parameter for string
- * @len: length of string
- * @d: used to assign memory
  * Return: d
  */
 char *_strdup(char *str)
