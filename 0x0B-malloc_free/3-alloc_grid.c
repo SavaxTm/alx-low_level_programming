@@ -21,7 +21,6 @@ int **alloc_grid(int width, int height)
 		grid[i] = (int *)malloc(width * sizeof(int));
 		if (grid[i] == NULL)
 		{
-			// Free memory allocated so far
 			for (j = 0; j < i; j++)
 			{
 				free(grid[j]);
@@ -29,8 +28,6 @@ int **alloc_grid(int width, int height)
 			free(grid);
 			return NULL;
 		}
-
-		// Initialize each element to 0
 		for (j = 0; j < width; j++)
 		{
 			grid[i][j] = 0;
