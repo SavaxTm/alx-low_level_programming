@@ -3,6 +3,8 @@
 #include "main.h"
 /**
  * alloc_grid - Entry point
+ * @width: parameter for main pointer
+ * @height: parameter for pointer to pointer
  * Return: grid
  */
 int **alloc_grid(int width, int height)
