@@ -4,7 +4,7 @@
 /**
  * print_numbers - Prints numbers
  * @separator - string between numbers
- * @n: Number of numbers
+ * @n: Number of integers passed to the function
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
 {
@@ -12,6 +12,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	va_list list;
 
 	va_start(list, n);
+
 	for (i = 0; i < n; i++)
 	{
 		if (!separator)
@@ -27,5 +28,7 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 			printf("%s%d", separator, va_arg(list, int));
 		}
 	}
+	va_end(list);
+
 	putchar('\n');
 }
