@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * _print_rev_recursion - prints the entire characters of a string in reverse order
+ * _print_rev_recursion - prints the entire characters of a s
+ * tring in reverse order
  * @s: The current character in the string to be printed
  */
 void _print_rev_recursion(char *s)
