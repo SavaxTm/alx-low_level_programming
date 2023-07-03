@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include "main.h"
+/**
+ * _puts_recursion - prints the entire characters of a string
+ */
 void _puts_recursion(char *s)
 {
 	if (*s == '\0')
