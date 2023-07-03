@@ -2,6 +2,7 @@
 #include "main.h"
 /**
  * _puts_recursion - prints the entire characters of a string
+ * @s: The current character in the string to be printed
  */
 void _puts_recursion(char *s)
 {
